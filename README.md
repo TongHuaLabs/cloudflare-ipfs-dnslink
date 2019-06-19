@@ -22,7 +22,7 @@ let cloudflareDnslink = require('cloudflare-ipfs-dnslink')(email, apiKey, zoneId
   let dnsRecord = await cloudflareDnslink.findDnsLinkRecord();
   if(dnsRecord) {
     // Update dnslink record
-    let res = await cloudflareDnslink.update(record, cid);
+    let res = await cloudflareDnslink.update(dnsRecord, cid);
     console.log(res);
   } else {
     // Create new dnslink record
