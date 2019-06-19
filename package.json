@@ -1,0 +1,23 @@
+{
+  "name": "cloudflare-ipfs-dnslink",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hashpire/cloudflare-ipfs-dnslink.git"
+  },
+  "keywords": [],
+  "author": "anakornk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hashpire/cloudflare-ipfs-dnslink/issues"
+  },
+  "homepage": "https://github.com/hashpire/cloudflare-ipfs-dnslink#readme",
+  "dependencies": {
+    "cloudflare": "^2.4.1"
+  }
+}
