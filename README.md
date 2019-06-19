@@ -1,5 +1,5 @@
 # cloudflare-ipfs-dnslink
-Currently, IPNS takes to long to resolve. DNSLink is alot faster and uses more readable names. This Node.js script programmatically update dnslink on Cloudflare. 
+Currently, IPNS takes too long to resolve. DNSLink is alot faster and uses more readable names. This Node.js script programmatically update dnslink on Cloudflare. 
 
 ## Installation
 ```
